@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+main {
+    padding: 12px 12px;
+}
+h1 {
+    font-family: 'Neue Machina' serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+
+}
+
+p {
+    font-size: 16px;
+
+}
+a {
+    color: #000000;
+}
+a h3 {
+    color: #7D5A94;
+}
+h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}

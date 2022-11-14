@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./includes/head.ejs") %> 
+
+<body>
+     <%- include("./includes/header.ejs") %> 
+
+     <main>
+
+          <h1>Llegó el invierno, en</h1>
+
+          <section class="grid_funkos">
+            <a href="">
+                <article class="funko_article">
+                    <img src="/images/daenerysFunko.png" alt="">
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+            <a class="funkos_right" href="">
+                <img src="/images/29164.png" alt="">
+                <article>
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+            <a href="">
+                <img src="/images/funkobeardbrown.png" alt="">
+                <article>
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+            <a class="funkos_right" href="">
+                <img src="/images/Funkojonsnow.png" alt="">
+                <article>
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+        </section>
+        <div class="btn_container">
+             <button class="btn_coleccion">Ver Colección</button>
+            </div>
+            <h1 class="nuestras_marcas">Nuestras Marcas</h1>
+            <div class="marcas_container">
+                <ul id="marcas_item">
+                    <% for( let i = 1; i < 7; i++ ) { %>
+                        <li class="slide">
+                            <picture>
+                                <img src="/images/<%= i %>-marca.png" alt="Slide" <%= i %>">
+                            </picture>
+                        </li>
+                        <% } %>
+                </ul>
+            </div>
+            <div class="beneficios">
+                <img src="images/beneficios.png" alt="">
+            </div>
+            
+        <h1 class="toyDay">Juguete del día</h1>
+       <iframe class="iframe_funko" width="100%" height="315" src="https://www.youtube.com/embed/-R4ed7kh6zE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+        <a href="">
+            <figure class="funko_alone">
+                <img src="/images/daenerysFunko.png" alt="">
+                <div class="funko_container">
+                <h3>Funko</h3>
+                <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                <h5>6 cuotas s/interés de</h5>
+                <h4>$211,50</h4>
+                <section class="funko_text">
+                    <h6>Final:</h6>
+                    <h5 style="text-decoration:line-through">$2.390</h5>
+                    <h5 style="color: red;">$1.269</h5>
+                </section>
+            </div>
+        </figure>
+        </a>
+
+        <section class="grid_dino">
+            <h3 class="mas_buscado">Lo más buscado</h1>
+            <a href=""><img src="/images/dino.png" alt=""><h5>Dinosaurio robot para armar</h5></a>
+            <a href=""><img src="/images/dino.png"  alt=""><h5>Dinosaurio robot para armar</h5></a>
+            <a href=""><img src="/images/mochila.png"  alt=""><h5>Mochila de ToyStory Dinosaurio REX</h5></a>
+            <a href=""><img src="/images/dino.png"  alt=""><h5>Dinosaurio robot para armar</h5></a>
+            <a href=""><img src="/images/mochila.png"  alt=""><h5>Mochila de ToyStory Dinosaurio REX</h5></a>
+        </section>
+        <section>
+            <h1>Novedades</h1>
+            <h5>Ver todo</h5>
+            <figure class="novedades_funko">
+            <a href="">
+                <img src="/images/funkobeardbrown.png" alt="">
+                <article>
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+            <a href="">
+                <img src="/images/lanister.png" alt="">
+                <article>
+                    <h3>Funko</h3>
+                    <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+                    <h5>6 cuotas s/interés de</h5>
+                    <h4>$211,50</h4>
+                    <section class="funko_text">
+                        <h6>Final:</h6>
+                        <h5 style="text-decoration:line-through">$2.390</h5>
+                        <h5 style="color: red;">$1.269</h5>
+                    </section>
+                    
+                </article>
+            </a>
+        </figure>
+        </section>
+
+        <div class="flechas">
+            <img src="/images/controles-carrusel.png" alt="">
+        </div>
+
+        <figure class="jansport_container">
+            <img class="imagen_fondo" src="/images/jansport.png" alt="">
+            <img class="imagen_cam" src="/images/jansport2.png" alt="">
+            <article class="jansport_article" >
+            <img src="/images/2.png" alt="">
+           <a href=""><h3>Jansport</h3></a> 
+            <h5>Mochila madalyn Floral</h5>
+            <h5>6 cuotas s/interés</h6>
+            <h3>211,50</h3>
+            <h5>Final:$1269</h5>
+            </article>
+        </figure>
+
+
+    <section class="grid_dino">
+       
+        <a href=""><img src="/images/dino.png" alt=""><h5>Dinosaurio robot para armar</h5></a>
+        <a href=""><img src="/images/dino.png"  alt=""><h5>Dinosaurio robot para armar</h5></a>
+        <a href=""><img src="/images/mochila.png"  alt=""><h5>Mochila de ToyStory Dinosaurio REX</h5></a>
+        <a href=""><img src="/images/dino.png"  alt=""><h5>Dinosaurio robot para armar</h5></a>
+        <a href=""><img src="/images/mochila.png"  alt=""><h5>Mochila de ToyStory Dinosaurio REX</h5></a>
+    </section>
+
+    <h1>Te recomendamos</h1>
+    <h5>Ver todo</h5>
+    <figure class="recomendaciones_container" >
+    <a href="">
+        <img src="/images/funkobeardbrown.png" alt="">
+        <article>
+            <h3>Funko</h3>
+            <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+            <h5>6 cuotas s/interés de</h5>
+            <h4>$211,50</h4>
+            <section class="funko_text">
+                <h6>Final:</h6>
+                <h5 style="text-decoration:line-through">$2.390</h5>
+                <h5 style="color: red;">$1.269</h5>
+            </section>
+            
+        </article>
+    </a>
+    <a href="">
+        <img src="/images/lanister.png" alt="">
+        <article>
+            <h3>Funko</h3>
+            <h5>Funko POP| Game of thrones- Daenerys Targaryan</h5>
+            <h5>6 cuotas s/interés de</h5>
+            <h4>$211,50</h4>
+            <section class="funko_text">
+                <h6>Final:</h6>
+                <h5 style="text-decoration:line-through">$2.390</h5>
+                <h5 style="color: red;">$1.269</h5>
+            </section>
+            
+        </article>
+    </a>
+</figure>
+
+    <figure class="subir_container">
+        <a href="#" class="subir">
+            <img src="/images/subir.png" alt="">
+        </a>
+    </figure>
+       
+
+
+                   
+       
+        
+     </main>
+
+     <%- include("./includes/footer.ejs") %> 
+
+</body>
+
+</html>

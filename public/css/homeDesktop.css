@@ -1,0 +1,531 @@
+
+/*------   HEADER   -------*/
+
+.first_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar_text{
+    background-color:#7D5A94;
+    color: #FFFFFF;
+    padding: 1em;
+}
+
+.beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------   MAIN   -------*/
+
+.text_invierno { 
+    
+    grid-area: 1 / 3 / 2 / 5; }
+    
+.text_invierno h1{
+    font-size: 56px;
+
+}
+.text_invierno p {
+    font-size: 22px;
+}
+.text_invierno {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 2em;
+}
+    
+
+.funkos_right {
+    padding-top: 3em;
+}
+
+
+.btn_coleccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 10px;
+    width: 175px;
+    height: 48px;
+    background: #F26522;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 6px;
+    color: #ffffff;
+   
+}
+.btn_coleccion:hover { 
+    cursor: pointer;
+}
+
+.btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+
+/*------   MAIN DINO   -------*/
+
+.grid_funkos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.grid_funkos img {
+    width: 90%;
+    max-width: 364px;
+}
+
+.grid_dino {
+    display: flex;
+    margin: .5em;
+    justify-content: space-around;
+    
+}
+.grid_dino a {
+    display: flex;
+
+}
+
+.dino_text a {
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+}
+.dino_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.funko_alone {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 4em;
+}
+
+.funko_container {
+    *display: flex;
+    flex-wrap: wrap;
+}
+/*------   NUESTRAS MARCAS   -------*/
+.nuestras_marcas {
+    color: #7D5A94;
+    
+}
+
+#marcas_item{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    /*transition:all 500ms ;
+    transform: translateX(-25vw) ;*/
+    animation: slider 30s 10ms infinite  ;
+    text-decoration: none;
+    overflow: hidden
+}
+
+.slide {
+    width: 100vw;
+    height: 100%;
+    list-style: none;
+    
+}
+ @keyframes slider {
+    0% {
+        translate:0%;
+    }
+    10%{
+        translate:25%;
+
+    }
+    20%{
+        translate:50vw;
+    }
+    30%{translate:75vw;
+    
+    }
+    40%{translate:100vw
+    }
+    50%{translate:-50vw
+    }
+    60%{translate:0%
+    }
+    70%{translate:50%
+    }
+    70%{
+        translate:60%
+    }
+    80%{translate:75%
+    }
+    90%{translate:100%
+    }
+    100%{ translate:150%
+    }
+ }
+
+
+
+/*------   YOUTUBE FUNKO   -------*/
+.youtube_funko {
+    display: flex;
+}
+.toyDay {
+    color: #F26522;
+    text-align: center;
+    font-size: 43px;
+}
+.iframe_funko {
+    border-radius: .5em;
+    height: auto;
+    max-height: 590px;
+}
+
+.mas_buscado {
+    color:#76B043 ;
+    padding-left: 12px;
+}
+
+/*------ NOVEDADES ---------*/
+
+.novedades_text {
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+.novedades_funko img {
+     max-width: 200px;
+     width: 100%;
+   
+}
+
+.novedades_funko {
+    display: flex;
+    gap: 2em;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+/*------   JANSPORT   -------*/
+
+
+.imagen_fondo {
+    width: 100%;
+    
+}
+.imagen_cam {
+    position: relative;
+    left: -832px;
+    bottom: -177px;
+    height: max-content;
+    width: 351px;
+}
+.jansport_container {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 2em;
+    width: 100%;
+
+}
+.jansport_article {
+    width: 100%;
+}
+.jansport_img {
+    min-width: 315px;
+}
+
+.imagen_recomendacion {
+    width: 340px;
+}
+
+/*------   RECOMENDACIONES   -------*/
+
+.recomendaciones_container {
+    display: flex;
+    padding: 4em 0em;
+}
+
+.subir_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.search {
+    border: none;
+}
+.search_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px #8C8C8C solid;
+    margin: 1em 1em;
+}
+
+  .contacto_container {
+    display: flex;
+    margin-bottom: 2em;
+  }
+  
+
+.btn_ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em; 
+    width: 70px;
+    height: 30px; 
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 6px;
+}
+/*------   CONTACTO   -------*/
+
+.contacto_left {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacto_right {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+}
+.contacto_right form {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.contacto_right input {
+    width: 100%;
+    max-width: 8em;
+}
+.contacto_right h3 {
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 12px;
+}
+.contacto_left h1 {
+    color: #F26522;
+}
+
+/*------   REDES  -------*/
+.redes_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+
+}
+
+.redes_left {
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.redes_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    justify-content: center;
+}
+
+.redes_right a {
+    font-size: 13px;
+    
+}
+
+.footer_grid {
+    padding: 2em;
+    display: grid; 
+   justify-items: center;
+  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+ 
+}
+
+.funko_text {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.btn_cartGreen {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+
+
+.marcas_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.funko_promo {
+    position: relative;
+    left: -3em;
+    top: -8em;
+    
+}
+
+.recomendaciones_container {
+    display: flex;
+    gap: 2em;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+.recomendaciones_container img {
+    max-width: 200px;
+}
+
+.contacto_container {
+    display: flex;
+    margin-bottom: 2em;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+/*-- SECTION NOVEDADES--*/
+
+#carousel {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 2em;
+
+}
+#track{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 7em;
+ 
+    
+
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    gap: 2em;
+    align-items: flex-end;
+    
+    
+}
+
+    
+#btns{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    width: 15%;
+    height: 2rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+ }
+
+ #btns a {
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow ;
+    height: 1rem;
+    width: 2rem;
+ }
+
+
+.img_wsp {
+    width: 52px;
+    height: 41px;
+    position: fixed;
+    left: 95%;
+    bottom: 9%;
+}
+
+#carousel_novedades {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 2em;
+
+    
+}
+
+@media (max-width: 1140px) {
+    .text_invierno {
+        grid-area: 1 / 1 / 2 / 5;
+    }
+}
+@media(max-width: 740px){
+    
+    
+}
